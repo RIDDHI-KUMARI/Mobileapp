@@ -1,0 +1,30 @@
+<div class="container">
+  <ion-row>
+    <ion-col>
+      <h3>
+        <ion-icon name="arrow-back-circle-outline" class="back-icon" routerLink="/home/dash"></ion-icon>
+        add money
+      </h3>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="banner">
+      <img src="../../../../assets/add money banner.svg" alt="">
+    </ion-col>
+  </ion-row>
+
+  <form [formGroup]="addM" (ngSubmit)="upi()"> 
+    <ion-row>
+      <ion-col size="12" class="money">
+        <ion-input value= 0 type="tel" formControlName="amt"></ion-input>
+      </ion-col>
+    </ion-row>
+  
+    <ion-row>
+      <ion-col size="12" class="button">
+        <ion-button type="submit" class="submit-btn">Add Money</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</div>

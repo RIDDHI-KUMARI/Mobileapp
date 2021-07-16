@@ -1,0 +1,18 @@
+<ion-content>
+  <ion-row>
+    <ion-col>
+      <h3> <span (click)="back()" ><ion-icon name="arrow-back-circle-outline"></ion-icon></span> Select your location</h3>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6"  *ngFor="let r of resData;">
+      <div class="card"  (click)="tran(r.circle_Code,r.circle_Name)">
+        <div class="img">
+          <img src="../../../../assets/dnhpdcl.png" alt="">
+        </div>
+        <p>{{r.circle_Name}}</p>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>
+

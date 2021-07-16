@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #37A7E6, #3D54BA);
+  color: #fff;
+  padding: 15px 0 0 0;
+  .dashboard-heading{
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: 34px;
+      margin-top: 12px;
+      font-family: "s-bold", sans-serif;
+  }
+  .img-outer-div{
+    display: flex;
+    margin-top: 22px;
+    .dots{
+      padding: 0 10px;
+      height: 22px;
+      margin-left: auto;
+    }
+  }
+  .big-img{
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -70px;
+    height: 140px;
+    width: 140px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .small-img{
+    position: absolute;
+    top: 16px;
+    left: 5px;
+    height: 34px;
+    width: 34px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 16px 0 0 10px;
+  }
+  .dashboard-username{
+      text-align: center;
+      padding: 0 0 0 30px;
+      font-size: 24px;
+      margin: 190px 0 20px 0;
+      text-transform: capitalize;
+      font-family: "s-semi-bold", sans-serif;
+  }
+  .icon-text{
+    text-align: center;
+    margin: 0 0 15px 0;
+    font-size: 12px;
+    font-family: "s-regular", sans-serif;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+    .icon{
+      height: 20px;
+      margin: 0 8px;
+    }
+  }
+  .ion-item{
+    --ion-item-background: transparent;
+    min-height: 25vh;
+    max-height: 30vh;
+    overflow-y: scroll;
+    padding: 0 0 50px 0;
+    .ion-label{
+      color: rgba(255, 255, 255, 0.945);
+      text-transform: capitalize;
+      cursor: pointer;
+      font-size: 16px;
+      font-family: "s-semi-bold", sans-serif;
+      img{
+        height: 14px;
+      }
+    }
+    .ion-label-premium{
+      text-transform: capitalize;
+      cursor: pointer;
+      font-size: 16px;
+      font-family: "s-semi-bold", sans-serif;
+      animation: blink 3s infinite;
+      img{
+        height: 14px;
+      }
+    }
+    @keyframes blink{
+      0% {color: #F2A408;}
+      25% {color: #fff;}
+      50% {color: #F2A408;}
+      75% {color: #fff;}
+      100% {color: #F2A408;}
+    }
+  }
+}
+
+
+
+#container-card{
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50px 50px 0 0;
+  padding-bottom: 50px;
+  .card-line{
+      height: 4px;
+      width: 180px;
+      background-color: rgb(233, 229, 229);
+      margin: 15px auto 40px;
+  }
+  .inner-card{
+    overflow-y: scroll;
+    padding: 0 15px;
+  }
+}
+
+
+
+#navbar{
+  background-image: linear-gradient(to right, #37A7E6, #3D54BA);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  height: 50px;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  svg{
+    height: 50px;
+    padding: 15px 0 12px;
+  }
+
+.btn{
+  background:mintcream;
+  color:navy;
+  padding:2px 2px;
+}
+}

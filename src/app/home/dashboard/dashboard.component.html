@@ -1,0 +1,137 @@
+<ion-row >
+  <ion-col size="3" class="ionic-col" (click)="money('addMoney')">
+    <img src="../../assets/add.svg" class="img-fluid" alt="" >
+    <p>add</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="money('send-money')">
+    <img src="../../assets/pay.svg" class="img-fluid" alt="">
+    <p>pay</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="money('request-money')">
+    <img src="../../assets/request.svg" class="img-fluid" alt="">
+    <p>request</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="refer()">
+    <img src="../../assets/refer.svg" class="img-fluid" alt="">
+    <p>refer</p>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12" class="ad-sense">
+    <ion-content>
+      <ion-slides class="ion-slides" #slide (ionSlidesDidLoad)="slider(slide)" pager="true" [options]="slideOpts">
+        <ion-slide class="ion-slide">
+          <img src="../../../assets/banner-01.jpg" alt="">
+        </ion-slide>
+        <ion-slide class="ion-slide">
+          <img src="../../../assets/banner-02.jpg" alt="">
+        </ion-slide>
+        <!-- <ion-slide class="ion-slide">
+          <img src="../../../assets/banner-03.jpg" alt="">
+        </ion-slide> -->
+        <ion-slide class="ion-slide">
+          <img src="../../../assets/banner-04.jpg" alt="">
+        </ion-slide>
+      </ion-slides>
+    </ion-content>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">
+    <p class="utility-heading">utilities</p>
+  </ion-col>
+</ion-row>
+
+
+<ion-row >
+  <ion-col size="3" class="ionic-col" (click)="service('Prepaid-Mobile')">
+    <img src="../../assets/mobile.svg" class="utility-img" alt="">
+    <p class="utility-para">mobile</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Electricity')">
+    <img src="../../assets/electricity.svg" class="utility-img" alt="">
+    <p class="utility-para">electricity</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Postpaid-Mobile')">
+    <img src="../../../assets/Prepaid.svg" class="utility-img" alt="">
+    <p class="utility-para">Postpaid</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('DTH')">
+    <img src="../../assets/dth.svg" class="utility-img" alt="">
+    <p class="utility-para">DTH</p>
+  </ion-col>
+</ion-row>
+
+
+<ion-row >
+  <ion-col size="3" class="ionic-col" (click)="service('GAS')">
+    <img src="../../assets/gas.svg" class="utility-img" alt="">
+    <p class="utility-para">gas bill</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Water')">
+    <img src="../../assets/water.svg" class="utility-img" alt="">
+    <p class="utility-para">water</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Insurance')">
+    <img src="../../../assets/Postpaid.svg" class="utility-img" alt="">
+    <p class="utility-para">Insurance</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Broadband')">
+    <img src="../../../assets/Broadband.svg" class="utility-img" alt="">
+    <p class="utility-para">Broadband</p>
+  </ion-col>
+</ion-row>
+
+
+<ion-row >
+  <ion-col size="3" class="ionic-col" (click)="service('Cable TV')">
+    <img src="../../../assets/Cable TV.svg" class="utility-img" alt="">
+    <p class="utility-para">Cable TV</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('CHALLAN')">
+    <img src="../../../assets/Challan.svg" class="utility-img" alt="">
+    <p class="utility-para">Challan</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Loan Repayment')">
+    <img src="../../../assets/Loan EMI.svg" class="utility-img" alt="">
+    <p class="utility-para">Loan EMI</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Hospital')">
+    <img src="../../../assets/Hospital.svg" class="utility-img" alt="">
+    <p class="utility-para">Hospital</p>
+  </ion-col>
+</ion-row>
+
+<ion-row >
+  <ion-col size="3" class="ionic-col" (click)="service('Life Insurance')">
+    <img src="../../../assets/Insurance.svg" class="utility-img" alt="">
+    <p class="utility-para">Life Insurance</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Landline')">
+    <img src="../../../assets/Landline.svg" class="utility-img" alt="">
+    <p class="utility-para">Landline</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Education Fees')">
+    <img src="../../../assets/Education Fee.svg" class="utility-img" alt="">
+    <p class="utility-para">Education Fee</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Municipal Taxes')">
+    <img src="../../../assets/Municiple Tax.svg" class="utility-img" alt="">
+    <p class="utility-para">Municiple Tax</p>
+  </ion-col>
+</ion-row>
+
+<ion-row >
+  <ion-col size="3" class="ionic-col" (click)="service('Gas Cylinder')">
+    <img src="../../../assets/gas-cylinder.svg" class="utility-img" alt="">
+    <p class="utility-para">gas cylinder</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Fastag Recharge')">
+    <img src="../../../assets/FastagRecharge.svg" class="utility-img" alt="">
+    <p class="utility-para">Fastag Recharge</p>
+  </ion-col>
+  <ion-col size="3" class="ionic-col" (click)="service('Housing Society')">
+    <img src="../../../assets/Housing Society.svg" class="utility-img" alt="">
+    <p class="utility-para">Housing Society</p>
+  </ion-col>
+</ion-row>

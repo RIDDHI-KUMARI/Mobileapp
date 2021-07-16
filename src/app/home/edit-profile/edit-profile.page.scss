@@ -1,0 +1,64 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: royalblue;
+    min-height: 100vh;
+    padding: 10px;
+    h3{
+        color: white;
+        font-size: 44px;
+        display: flex;
+        text-transform: capitalize;
+        .back-icon{
+            margin-right: 40px;
+            color:midnightblue;
+        }
+    }
+    .profile{
+        display: flex;
+        img{
+            height: 240px;
+            width: 240px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin-right: 50%;
+            margin-left: 40%;
+            margin-bottom: 15px;
+            margin-top: 0px;
+        }
+    }
+    
+
+    .input-field{
+        --background: royalblue;
+        border: 1px solid #1d1d62;
+        margin-bottom: 20px;
+        padding: 0;
+        color: #000;
+        margin-left:295px;
+        margin-right:295px;
+        .label{
+            color: white;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+    }
+    .submit-btn{
+        --background: midnightblue;
+        color: #fff;
+        margin-left: 50%;
+        margin-right: 50%;
+        border-radius: 50%;
+        text-decoration: none;
+        font-size: 16px;
+        padding:0px 5px 0px 5px;
+        cursor: pointer;
+      }
+      
+}
