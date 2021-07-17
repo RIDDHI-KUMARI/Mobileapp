@@ -7,10 +7,10 @@
 .container{
     background-color: #fff;
     min-height: 100vh;
-    padding: 10px;
+    margin:0 auto;
+    
     h3{
         color: #162249;
-        padding: 40px 0 28px 20px;
         font-size: 24px;
         display: flex;
         .back-icon{
@@ -19,11 +19,12 @@
     }
     
     .banner{
-        min-height: 120px;
-        margin: 20px 10px 50px;
+        min-height: 100px;
+        margin-top:0px;
+        margin-bottom: 10px;
         img{
             object-fit: contain;
-            width:1300px;
+            width:1200px;
             height:300px;
     
         }
@@ -33,7 +34,10 @@
         --background: #fff;
         border: 1px solid #1d1d62;
         margin-bottom: 20px;
+        margin-right:245px;
+        margin-left:245px;
         color: #000;
+        line-height: 15px;
         .label{
             color: #1a4170;
             font-size: 18px;
@@ -43,5 +47,9 @@
     .submit-btn{
         --background: #2B3E80;
         color: #fff;
+        margin-right:50%;
+        margin-left:50%;
+        width:110px;
+        box-shadow:1px 1px 5px 1px #2d3436;
     }
 }
