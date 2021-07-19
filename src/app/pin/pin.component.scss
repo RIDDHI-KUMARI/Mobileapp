@@ -1,0 +1,22 @@
+.input-field{
+    --background: #fff;
+    border: 1px solid #1d1d62;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-right:245px;
+    margin-left:245px;
+    color: #000;
+    .label{
+        color: #1a4170;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+}
+.submit-btn{
+    --background: #2B3E80;
+    color: #fff;
+    margin-right:50%;
+    margin-left:50%;
+    width:110px;
+    box-shadow:1px 1px 5px 1px #2d3436;;
+}
