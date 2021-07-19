@@ -7,6 +7,7 @@
 .container{
     background-color: #fff;
     height: 100vh;
+    object-fit: contain;
     h3{
         color: #162249;
         padding: 40px 0 28px 20px;
@@ -18,12 +19,42 @@
             margin-right: 60px;
         }
     }
-   .searchbar{
+   .input-field{
        --background:lightgrey;
        color:navy;
        margin-left:10%;
        margin-right:10%;
-       
+       width:100%;
    }
-  
+   .card{
+    margin-left:10%;
+    margin-right:10%;
+    height:150px;  
+   }
+   .para{
+       font-size: 20px;
+       margin-left:80%;
+       position:relative;
+       margin-bottom:30px;
+   }
+   .card2{
+    margin-left:10%;
+    margin-right:10%;
+    height:350px;  
+    border:1px solid grey;
+   }
+   #circle {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #fff;
+    margin-left:20px;
+    margin-top:20px;
+  }
+  .icon{
+      margin-top:20px;
+      color:navy;
+  }
 }
